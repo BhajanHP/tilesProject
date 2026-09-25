@@ -1,0 +1,188 @@
+:root {
+  --stone: #e4e1d9;
+  --surface: #faf9f6;
+  --ink: #1e1c19;
+  --ink-muted: #6b6862;
+  --clay: #9c4a2c;
+  --clay-soft: #f0ded5;
+  --grout: #c9c4b8;
+
+  /* Marketing / brand theme (navbar, home page) */
+  --night: #0c0c0c;
+  --night-soft: #191919;
+  --night-line: #2c2c2c;
+  --crimson: #e0212c;
+  --crimson-dark: #b3161f;
+  --cloud: #f7f6f4;
+  --paper: #ffffff;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--stone);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--clay);
+  outline-offset: 2px;
+}
+
+/* ---------- Scroll-reveal utilities ---------- */
+
+.reveal,
+.reveal-left,
+.reveal-right {
+  transition: opacity 0.7s cubic-bezier(0.16, 0.84, 0.44, 1),
+    transform 0.7s cubic-bezier(0.16, 0.84, 0.44, 1);
+  will-change: opacity, transform;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-36px);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(36px);
+}
+
+.reveal.is-visible,
+.reveal-left.is-visible,
+.reveal-right.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-group > * {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.reveal-group.is-visible > * {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-group.is-visible > *:nth-child(1) { transition-delay: 0.02s; }
+.reveal-group.is-visible > *:nth-child(2) { transition-delay: 0.08s; }
+.reveal-group.is-visible > *:nth-child(3) { transition-delay: 0.14s; }
+.reveal-group.is-visible > *:nth-child(4) { transition-delay: 0.2s; }
+.reveal-group.is-visible > *:nth-child(5) { transition-delay: 0.26s; }
+.reveal-group.is-visible > *:nth-child(6) { transition-delay: 0.32s; }
+.reveal-group.is-visible > *:nth-child(n + 7) { transition-delay: 0.36s; }
+
+/* ---------- Tile-slab wipe reveal ---------- */
+
+.wipe {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.wipe > * {
+  margin: 0;
+}
+
+.wipe__bar {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, var(--crimson-dark, var(--clay)), var(--crimson, var(--clay)));
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.85s cubic-bezier(0.76, 0, 0.24, 1);
+  transition-delay: 0.12s;
+}
+
+.wipe.is-visible .wipe__bar {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+/* ---------- Cursor-tracking tilt + magnetic ---------- */
+
+.tilt {
+  transition: transform 0.15s ease-out, box-shadow 0.25s ease, border-color 0.25s ease;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.tilt::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  opacity: var(--glow-o, 0);
+  transition: opacity 0.3s ease;
+  background: radial-gradient(
+    circle at var(--glow-x, 50%) var(--glow-y, 50%),
+    rgba(224, 33, 44, 0.22),
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+.magnetic {
+  transition: transform 0.3s cubic-bezier(0.16, 0.84, 0.44, 1);
+}
+
+.tilt > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-group > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .wipe__bar {
+    display: none;
+  }
+
+  .tilt,
+  .magnetic {
+    transform: none !important;
+  }
+}

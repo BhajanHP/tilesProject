@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "name": "60X120 GALA COLLECTION_SERON",
+    "image": "/images/60X120_GALA_COLLECTION_SERON.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "gala",
+    "collectionLabel": "Gala"
+  },
+  {
+    "id": 2,
+    "name": "Seron 60 x 120 cm Vitro E-catalogue July 26",
+    "image": "/images/Seron_60_x_120_cm_Vitro_E-catalogue_July_26.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "vitro",
+    "collectionLabel": "Vitro"
+  },
+  {
+    "id": 3,
+    "name": "Seron 600 x 1200 mm Grenulla",
+    "image": "/images/Seron_600_x_1200_mm_Grenulla.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "grenulla",
+    "collectionLabel": "Grenulla"
+  },
+  {
+    "id": 4,
+    "name": "Seron 600x1200mm Carving",
+    "image": "/images/Seron_600x1200mm_Carving.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "carve-art",
+    "collectionLabel": "Carve-Art"
+  },
+  {
+    "id": 5,
+    "name": "Seron 600x1200mm Satvario",
+    "image": "/images/Seron_600x1200mm_Satvario.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 6,
+    "name": "Seron 60x120cm Pearl Finish E-Catalogue",
+    "image": "/images/Seron_60x120cm_Pearl_Finish_E-Catalogue.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "pearl",
+    "collectionLabel": "Pearl"
+  },
+  {
+    "id": 7,
+    "name": "Seron 60x120cm StoneX Collection GHR+Punch Finish E-Catalogue",
+    "image": "/images/Seron_60x120cm_StoneX_Collection_GHRPunch_Finish_E-Catalogue.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "stone-x",
+    "collectionLabel": "Stone-X"
+  },
+  {
+    "id": 8,
+    "name": "SERON EXCLUSIVE GLOSSY 600X1200",
+    "image": "/images/SERON_EXCLUSIVE_GLOSSY_600X1200.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 9,
+    "name": "Seron Flovers Collection",
+    "image": "/images/Seron_Flovers_Collection.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "flovers",
+    "collectionLabel": "Flovers"
+  },
+  {
+    "id": 10,
+    "name": "Seron Iconic (double digital) 2026",
+    "image": "/images/Seron_Iconic_double_digital_2026.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "iconic-story",
+    "collectionLabel": "Iconic Story"
+  },
+  {
+    "id": 11,
+    "name": "Seron MarbleTouch 2025",
+    "image": "/images/Seron_MarbleTouch_2025.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "marble",
+    "collectionLabel": "Marble"
+  },
+  {
+    "id": 12,
+    "name": "Seron ORRO v15",
+    "image": "/images/Seron_ORRO_v15.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "orro",
+    "collectionLabel": "Orro"
+  },
+  {
+    "id": 13,
+    "name": "Seron RockLand 2.0",
+    "image": "/images/Seron_RockLand_20.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "rock-land",
+    "collectionLabel": "Rock Land"
+  },
+  {
+    "id": 14,
+    "name": "Seron RockLand new arrival",
+    "image": "/images/Seron_RockLand_new_arrival.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "rock-land",
+    "collectionLabel": "Rock Land"
+  },
+  {
+    "id": 15,
+    "name": "Seron Vitro Catalogue 2024",
+    "image": "/images/Seron_Vitro_Catalogue_2024.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "vitro",
+    "collectionLabel": "Vitro"
+  },
+  {
+    "id": 16,
+    "name": "SERON_Iconic Collection",
+    "image": "/images/SERON_Iconic_Collection.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "iconic-story",
+    "collectionLabel": "Iconic Story"
+  },
+  {
+    "id": 17,
+    "name": "Shape touch 600 x 1200 mm Seron v4",
+    "image": "/images/Shape_touch_600_x_1200_mm_Seron_v4.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "shape-touch",
+    "collectionLabel": "Shape Touch"
+  },
+  {
+    "id": 18,
+    "name": "Shape touch 600x1200mm Seron",
+    "image": "/images/Shape_touch_600x1200mm_Seron.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "shape-touch",
+    "collectionLabel": "Shape Touch"
+  },
+  {
+    "id": 19,
+    "name": "Shape touch Pro 600 x 1200 mm Seron v5",
+    "image": "/images/Shape_touch_Pro_600_x_1200_mm_Seron_v5.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "shape-touch-pro",
+    "collectionLabel": "Shape Touch Pro"
+  },
+  {
+    "id": 20,
+    "name": "Shape touch Pro 600x1200mm Seron",
+    "image": "/images/Shape_touch_Pro_600x1200mm_Seron.jpg",
+    "sizeSlug": "600-x-1200-mm-x-9-mm",
+    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "collectionSlug": "shape-touch-pro",
+    "collectionLabel": "Shape Touch Pro"
+  },
+  {
+    "id": 21,
+    "name": "Seron 80 x 160 cm Carving",
+    "image": "/images/Seron_80_x_160_cm_Carving.jpg",
+    "sizeSlug": "800-x-1600-mm",
+    "sizeLabel": "800 \u00d7 1600 mm",
+    "collectionSlug": "techno-marble",
+    "collectionLabel": "Techno Marble"
+  },
+  {
+    "id": 22,
+    "name": "Seron 80 x 160 cm Pearl Finish E-Catalogue Jan 24",
+    "image": "/images/Seron_80_x_160_cm_Pearl_Finish_E-Catalogue_Jan_24.jpg",
+    "sizeSlug": "800-x-1600-mm",
+    "sizeLabel": "800 \u00d7 1600 mm",
+    "collectionSlug": "pearl",
+    "collectionLabel": "Pearl"
+  },
+  {
+    "id": 23,
+    "name": "Seron 800 x 1600 Glossy",
+    "image": "/images/Seron_800_x_1600_Glossy.jpg",
+    "sizeSlug": "800-x-1600-mm",
+    "sizeLabel": "800 \u00d7 1600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 24,
+    "name": "Seron 800 x 1600 Glossy v20",
+    "image": "/images/Seron_800_x_1600_Glossy_v20.jpg",
+    "sizeSlug": "800-x-1600-mm",
+    "sizeLabel": "800 \u00d7 1600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 25,
+    "name": "Seron 80 x 240 cm Fullbody Ecatalogue Jan 26",
+    "image": "/images/Seron_80_x_240_cm_Fullbody_Ecatalogue_Jan_26.jpg",
+    "sizeSlug": "800-x-2400-mm",
+    "sizeLabel": "800 \u00d7 2400 mm",
+    "collectionSlug": "full-body",
+    "collectionLabel": "Full Body"
+  },
+  {
+    "id": 26,
+    "name": "120 x 180 cm High Gloss E-catalogue July 26",
+    "image": "/images/120_x_180_cm_High_Gloss_E-catalogue_July_26.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "high-gloss",
+    "collectionLabel": "High Gloss"
+  },
+  {
+    "id": 27,
+    "name": "1200 x 1800 mm Glossy + Pearl",
+    "image": "/images/1200_x_1800_mm_Glossy_Pearl.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "pearl",
+    "collectionLabel": "Pearl"
+  },
+  {
+    "id": 28,
+    "name": "1200 x 1800 mm Only Matt",
+    "image": "/images/1200_x_1800_mm_Only_Matt.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "techno-marble",
+    "collectionLabel": "Techno Marble"
+  },
+  {
+    "id": 29,
+    "name": "Seron 120 x 180 cm 15 mm E-Catalogue Feb 24",
+    "image": "/images/Seron_120_x_180_cm_15_mm_E-Catalogue_Feb_24.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "techno-marble",
+    "collectionLabel": "Techno Marble"
+  },
+  {
+    "id": 30,
+    "name": "Seron 120 x 180 cm Glossy 15mm Ecatalogue May 25",
+    "image": "/images/Seron_120_x_180_cm_Glossy_15mm_Ecatalogue_May_25.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "techno-marble",
+    "collectionLabel": "Techno Marble"
+  },
+  {
+    "id": 31,
+    "name": "Seron 120 x 180 cm Glossy E-catalogue June 26",
+    "image": "/images/Seron_120_x_180_cm_Glossy_E-catalogue_June_26.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 32,
+    "name": "Seron 120 x 180 cm GVT Catalogue Dec 24",
+    "image": "/images/Seron_120_x_180_cm_GVT_Catalogue_Dec_24.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 33,
+    "name": "Seron 120 x 180 cm Marble Collection E-Catalogue April 24",
+    "image": "/images/Seron_120_x_180_cm_Marble_Collection_E-Catalogue_April_24.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "marble",
+    "collectionLabel": "Marble"
+  },
+  {
+    "id": 34,
+    "name": "Seron 120 x 180 cm Marble Collection E-catalogue July 26",
+    "image": "/images/Seron_120_x_180_cm_Marble_Collection_E-catalogue_July_26.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "marble",
+    "collectionLabel": "Marble"
+  },
+  {
+    "id": 35,
+    "name": "Seron 120 x 180 cm Paper Matt Feb 26",
+    "image": "/images/Seron_120_x_180_cm_Paper_Matt_Feb_26.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "paper-matt",
+    "collectionLabel": "Paper Matt"
+  },
+  {
+    "id": 36,
+    "name": "Seron 120 x 180 cm Taj Collection June 25",
+    "image": "/images/Seron_120_x_180_cm_Taj_Collection_June_25.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "taj",
+    "collectionLabel": "Taj"
+  },
+  {
+    "id": 37,
+    "name": "Seron 1200 x 1800 mm Glossy Endless",
+    "image": "/images/Seron_1200_x_1800_mm_Glossy_Endless.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 38,
+    "name": "Seron 1200 x 1800 mm Grenula Catalogue",
+    "image": "/images/Seron_1200_x_1800_mm_Grenula_Catalogue.jpg",
+    "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
+    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "collectionSlug": "grenulla",
+    "collectionLabel": "Grenulla"
+  }
+]
