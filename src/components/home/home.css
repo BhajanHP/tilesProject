@@ -257,11 +257,7 @@
   }
 
   .hero__tagline {
-    right: auto;
-    left: 0.9rem;
-    bottom: 0.9rem;
-    justify-content: flex-start;
-    text-align: left;
+    display: none;
   }
 }
 
