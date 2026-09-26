@@ -16,14 +16,22 @@ const FEATURES = [
 export default function Hero({ onExplore }) {
   return (
     <section id="home" className="hero">
-      <img
-        src="/hero/1st_page.webp"
-        alt="Elegant living room styled with premium marble-finish tile flooring and a matching feature wall"
-        className="hero__bg"
-        loading="eager"
-        fetchPriority="high"
-      />
-      <div className="hero__scrim" aria-hidden="true" />
+      <div className="hero__media">
+        <img
+          src="/hero/1st_page.webp"
+          alt="Elegant living room styled with premium marble-finish tile flooring and a matching feature wall"
+          className="hero__bg"
+          loading="eager"
+          fetchPriority="high"
+        />
+        <div className="hero__scrim" aria-hidden="true" />
+        <div className="hero__tagline">
+          <span>Tiles</span>
+          <span>That</span>
+          <span>Define</span>
+          <span className="text-crimson">Tomorrow</span>
+        </div>
+      </div>
 
       <div className="hero__inner">
         <div className="hero__content">
@@ -57,13 +65,6 @@ export default function Hero({ onExplore }) {
             ))}
           </ul>
         </div>
-      </div>
-
-      <div className="hero__tagline">
-        <span>Tiles</span>
-        <span>That</span>
-        <span>Define</span>
-        <span className="text-crimson">Tomorrow</span>
       </div>
     </section>
   )
