@@ -18,11 +18,10 @@ const POINTS = [
 export default function AboutSection({ onContact }) {
   return (
     <section id="about" className="about">
-      <div className="about__art reveal-left tilt">
-        <div className="about__ribbon" aria-hidden="true" />
+      <div className="about__art reveal-left">
         <img
           src="/hero/2nd_page.webp"
-          alt="Black, cream and grey marble-finish porcelain tile slabs fanned out together"
+          alt="Black, cream and grey marble-finish porcelain tile slabs displayed against a black backdrop with a red accent stripe"
           className="about__photo"
           loading="lazy"
         />

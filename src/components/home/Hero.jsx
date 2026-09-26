@@ -16,6 +16,15 @@ const FEATURES = [
 export default function Hero({ onExplore }) {
   return (
     <section id="home" className="hero">
+      <img
+        src="/hero/1st_page.webp"
+        alt="Elegant living room styled with premium marble-finish tile flooring and a matching feature wall"
+        className="hero__bg"
+        loading="eager"
+        fetchPriority="high"
+      />
+      <div className="hero__scrim" aria-hidden="true" />
+
       <div className="hero__inner">
         <div className="hero__content">
           <p className="eyebrow eyebrow--light">Premium tiles for</p>
@@ -48,24 +57,13 @@ export default function Hero({ onExplore }) {
             ))}
           </ul>
         </div>
+      </div>
 
-        <div className="hero__visual">
-          <div className="hero__visual-card tilt">
-            <img
-              src="/hero/1st_page.webp"
-              alt="Premium marble-finish porcelain tile slabs stacked beside a walnut wood surface"
-              className="hero__visual-img"
-              loading="eager"
-              fetchPriority="high"
-            />
-          </div>
-          <div className="hero__tagline">
-            <span>Tiles</span>
-            <span>That</span>
-            <span>Define</span>
-            <span className="text-crimson">Tomorrow</span>
-          </div>
-        </div>
+      <div className="hero__tagline">
+        <span>Tiles</span>
+        <span>That</span>
+        <span>Define</span>
+        <span className="text-crimson">Tomorrow</span>
       </div>
     </section>
   )

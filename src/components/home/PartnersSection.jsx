@@ -1,6 +1,6 @@
 import WipeHeading from './WipeHeading.jsx'
+import { PARTNERS } from '../../data/partners.js'
 
-const PARTNERS = ['Kajaria', 'Somany', 'Johnson', 'Orientbell', 'Nitco', 'AGL']
 const LOOP = [...PARTNERS, ...PARTNERS]
 
 export default function PartnersSection() {
@@ -15,9 +15,12 @@ export default function PartnersSection() {
 
       <div className="partners__marquee reveal">
         <ul className="partners__track">
-          {LOOP.map((name, i) => (
-            <li key={`${name}-${i}`} className="partners__card">
-              {name}
+          {LOOP.map((p, i) => (
+            <li key={`${p.slug}-${i}`} className="partners__card">
+              <span className="partners__card-logo">
+                <img src={p.logo} alt={p.name} loading="lazy" />
+              </span>
+              <span className="partners__card-name">{p.name}</span>
             </li>
           ))}
         </ul>
