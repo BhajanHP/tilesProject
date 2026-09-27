@@ -13,6 +13,9 @@ const FEATURES = [
   },
 ]
 
+const STAR_PATH =
+  'M12 2.4l2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.4l-5.88 3.11 1.12-6.55L2.48 9.32l6.58-.96L12 2.4Z'
+
 export default function Hero({ onExplore }) {
   return (
     <section id="home" className="hero">
@@ -25,6 +28,13 @@ export default function Hero({ onExplore }) {
           fetchPriority="high"
         />
         <div className="hero__scrim" aria-hidden="true" />
+        <div className="hero__glitter" aria-hidden="true">
+          <span className="hero__glint hero__glint--1" />
+          <span className="hero__glint hero__glint--2" />
+          <span className="hero__glint hero__glint--3" />
+          <span className="hero__glint hero__glint--4" />
+          <span className="hero__glint hero__glint--5" />
+        </div>
         <div className="hero__tagline">
           <span>Tiles</span>
           <span>That</span>
@@ -46,6 +56,18 @@ export default function Hero({ onExplore }) {
             Explore Our Collection
             <span aria-hidden="true"> &rarr;</span>
           </button>
+
+          <div className="hero__trust">
+            <span className="hero__trust-stars" aria-hidden="true">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <svg key={i} className="hero__star" viewBox="0 0 24 24" width="15" height="15">
+                  <path d={STAR_PATH} fill="currentColor" />
+                </svg>
+              ))}
+            </span>
+            <span className="hero__trust-divider" aria-hidden="true" />
+            <span className="hero__trust-text">1,000+ Happy Customers</span>
+          </div>
 
           <ul className="hero__features">
             {FEATURES.map((f) => (
