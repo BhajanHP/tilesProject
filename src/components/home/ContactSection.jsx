@@ -3,7 +3,7 @@ import WipeHeading from './WipeHeading.jsx'
 const ADDRESS = 'Aanjaya Tiles, Tumkur, Karnataka - 572101'
 const PHONE_DISPLAY = '+91 98765 43210'
 const PHONE_TEL = '+919876543210'
-const EMAIL = 'info@aanjayatiles.com'
+const EMAIL = 'aanjayatiles@gmail.com'
 
 // 13°18'45.5"N 77°07'07.6"E
 const MAP_QUERY = '13.312639,77.118778'

@@ -66,6 +66,18 @@ export default function Hero({ onExplore }) {
           </ul>
         </div>
       </div>
+
+      <button
+        type="button"
+        className="hero__scroll-cue"
+        aria-label="Scroll to About section"
+        onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+      >
+        <span className="hero__scroll-cue-mouse">
+          <span className="hero__scroll-cue-dot" />
+        </span>
+        <span className="hero__scroll-cue-label">Scroll</span>
+      </button>
     </section>
   )
 }
