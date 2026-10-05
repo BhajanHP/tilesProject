@@ -1,6 +1,7 @@
 export default function PartnerComingSoon({ partner }) {
   return (
     <div className="partner-soon">
+      <span className="partner-soon__badge">Coming Soon</span>
       <img src={partner.logo} alt={partner.name} className="partner-soon__logo" />
       <h2 className="partner-soon__title">{partner.name} collection is on its way</h2>
       <p className="partner-soon__text">

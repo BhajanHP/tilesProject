@@ -59,15 +59,23 @@ export default function ProductPage({ activeSize, activeCollection, onSize, onCo
   return (
     <>
       <div className="page-header">
-        {onBack && (
-          <button type="button" className="page-header__back" onClick={onBack}>
-            <span aria-hidden="true">&larr;</span> All Partners
-          </button>
-        )}
-        <div className="page-header__meta">
-          <span>Product catalog</span>
-          <span className="dot-sep" aria-hidden="true" />
-          <span>{filtered.length} of {products.length} tiles</span>
+        <div className="page-header__top">
+          {onBack && (
+            <button type="button" className="page-header__back" onClick={onBack}>
+              <span aria-hidden="true">&larr;</span> All Partners
+            </button>
+          )}
+          <div className="page-header__meta">
+            <span>Product catalog</span>
+            <span className="dot-sep" aria-hidden="true" />
+            <span>{filtered.length} of {products.length} tiles</span>
+          </div>
+        </div>
+        <div className="page-header__heading">
+          <p className="page-header__eyebrow">Catalog</p>
+          <h1 className="page-header__title">
+            Browse Our <span className="text-crimson">Tile Collection</span>
+          </h1>
         </div>
       </div>
 
@@ -85,6 +93,10 @@ export default function ProductPage({ activeSize, activeCollection, onSize, onCo
         <main className="content">
           {filtered.length === 0 ? (
             <div className="empty-state">
+              <svg viewBox="0 0 24 24" width="40" height="40" className="empty-state__icon" aria-hidden="true">
+                <path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+                <path d="M15.5 15.5l5 5m0-5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
               <p>No tiles match this combination.</p>
               <button type="button" className="text-link" onClick={clearFilters}>
                 Clear filters
