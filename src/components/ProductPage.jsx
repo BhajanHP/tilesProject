@@ -5,6 +5,7 @@ import ProductGrid from './ProductGrid.jsx'
 import ProductModal from './ProductModal.jsx'
 
 const SIZE_ORDER = [
+  '600-x-600-mm',
   '600-x-1200-mm-x-9-mm',
   '800-x-1600-mm',
   '800-x-2400-mm',
@@ -16,6 +17,9 @@ const COLLECTION_ORDER = [
   'grenulla', 'pearl', 'marble', 'vitro', 'shape-touch-pro', 'gem',
   'rock-land', 'orro', 'taj', 'stone-x', 'shape-touch', 'techno-marble',
   'urbana', 'gala', 'full-body', 'paper-matt', 'iconic-story',
+  'rustic-series', 'small-rangoli-series', 'terrezo-series', 'wood-series',
+  '3d-series', 'continue-marble-series', 'dc-dark-series', 'dc-series',
+  'geo-metrix-series', 'hi-glossy-series', 'mosaic-series',
 ]
 
 function buildFacet(order, products, key, labelKey) {
@@ -31,25 +35,30 @@ function buildFacet(order, products, key, labelKey) {
   return order.filter((slug) => present.has(slug)).map((slug) => present.get(slug))
 }
 
-export default function ProductPage({ activeSize, activeCollection, onSize, onCollection, onBack }) {
+export default function ProductPage({ partnerSlug, activeSize, activeCollection, onSize, onCollection, onBack }) {
   const [activeProduct, setActiveProduct] = useState(null)
 
+  const partnerProducts = useMemo(
+    () => products.filter((p) => p.partnerSlug === partnerSlug),
+    [partnerSlug],
+  )
+
   const sizeFacets = useMemo(
-    () => buildFacet(SIZE_ORDER, products, 'sizeSlug', 'sizeLabel'),
-    [],
+    () => buildFacet(SIZE_ORDER, partnerProducts, 'sizeSlug', 'sizeLabel'),
+    [partnerProducts],
   )
   const collectionFacets = useMemo(
-    () => buildFacet(COLLECTION_ORDER, products, 'collectionSlug', 'collectionLabel'),
-    [],
+    () => buildFacet(COLLECTION_ORDER, partnerProducts, 'collectionSlug', 'collectionLabel'),
+    [partnerProducts],
   )
 
   const filtered = useMemo(() => {
-    return products.filter((p) => {
+    return partnerProducts.filter((p) => {
       if (activeSize && p.sizeSlug !== activeSize) return false
       if (activeCollection && p.collectionSlug !== activeCollection) return false
       return true
     })
-  }, [activeSize, activeCollection])
+  }, [partnerProducts, activeSize, activeCollection])
 
   function clearFilters() {
     onSize(null)
@@ -68,7 +77,7 @@ export default function ProductPage({ activeSize, activeCollection, onSize, onCo
           <div className="page-header__meta">
             <span>Product catalog</span>
             <span className="dot-sep" aria-hidden="true" />
-            <span>{filtered.length} of {products.length} tiles</span>
+            <span>{filtered.length} of {partnerProducts.length} tiles</span>
           </div>
         </div>
         <div className="page-header__heading">

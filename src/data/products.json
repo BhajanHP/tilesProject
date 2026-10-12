@@ -4,341 +4,1959 @@
     "name": "60X120 GALA COLLECTION_SERON",
     "image": "/images/60X120_GALA_COLLECTION_SERON.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "gala",
-    "collectionLabel": "Gala"
+    "collectionLabel": "Gala",
+    "partnerSlug": "seron"
   },
   {
     "id": 2,
     "name": "Seron 60 x 120 cm Vitro E-catalogue July 26",
     "image": "/images/Seron_60_x_120_cm_Vitro_E-catalogue_July_26.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "vitro",
-    "collectionLabel": "Vitro"
+    "collectionLabel": "Vitro",
+    "partnerSlug": "seron"
   },
   {
     "id": 3,
     "name": "Seron 600 x 1200 mm Grenulla",
     "image": "/images/Seron_600_x_1200_mm_Grenulla.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "grenulla",
-    "collectionLabel": "Grenulla"
+    "collectionLabel": "Grenulla",
+    "partnerSlug": "seron"
   },
   {
     "id": 4,
     "name": "Seron 600x1200mm Carving",
     "image": "/images/Seron_600x1200mm_Carving.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "carve-art",
-    "collectionLabel": "Carve-Art"
+    "collectionLabel": "Carve-Art",
+    "partnerSlug": "seron"
   },
   {
     "id": 5,
     "name": "Seron 600x1200mm Satvario",
     "image": "/images/Seron_600x1200mm_Satvario.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 6,
     "name": "Seron 60x120cm Pearl Finish E-Catalogue",
     "image": "/images/Seron_60x120cm_Pearl_Finish_E-Catalogue.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "pearl",
-    "collectionLabel": "Pearl"
+    "collectionLabel": "Pearl",
+    "partnerSlug": "seron"
   },
   {
     "id": 7,
     "name": "Seron 60x120cm StoneX Collection GHR+Punch Finish E-Catalogue",
     "image": "/images/Seron_60x120cm_StoneX_Collection_GHRPunch_Finish_E-Catalogue.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "stone-x",
-    "collectionLabel": "Stone-X"
+    "collectionLabel": "Stone-X",
+    "partnerSlug": "seron"
   },
   {
     "id": 8,
     "name": "SERON EXCLUSIVE GLOSSY 600X1200",
     "image": "/images/SERON_EXCLUSIVE_GLOSSY_600X1200.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 9,
     "name": "Seron Flovers Collection",
     "image": "/images/Seron_Flovers_Collection.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "flovers",
-    "collectionLabel": "Flovers"
+    "collectionLabel": "Flovers",
+    "partnerSlug": "seron"
   },
   {
     "id": 10,
     "name": "Seron Iconic (double digital) 2026",
     "image": "/images/Seron_Iconic_double_digital_2026.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "iconic-story",
-    "collectionLabel": "Iconic Story"
+    "collectionLabel": "Iconic Story",
+    "partnerSlug": "seron"
   },
   {
     "id": 11,
     "name": "Seron MarbleTouch 2025",
     "image": "/images/Seron_MarbleTouch_2025.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "marble",
-    "collectionLabel": "Marble"
+    "collectionLabel": "Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 12,
     "name": "Seron ORRO v15",
     "image": "/images/Seron_ORRO_v15.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "orro",
-    "collectionLabel": "Orro"
+    "collectionLabel": "Orro",
+    "partnerSlug": "seron"
   },
   {
     "id": 13,
     "name": "Seron RockLand 2.0",
     "image": "/images/Seron_RockLand_20.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "rock-land",
-    "collectionLabel": "Rock Land"
+    "collectionLabel": "Rock Land",
+    "partnerSlug": "seron"
   },
   {
     "id": 14,
     "name": "Seron RockLand new arrival",
     "image": "/images/Seron_RockLand_new_arrival.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "rock-land",
-    "collectionLabel": "Rock Land"
+    "collectionLabel": "Rock Land",
+    "partnerSlug": "seron"
   },
   {
     "id": 15,
     "name": "Seron Vitro Catalogue 2024",
     "image": "/images/Seron_Vitro_Catalogue_2024.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "vitro",
-    "collectionLabel": "Vitro"
+    "collectionLabel": "Vitro",
+    "partnerSlug": "seron"
   },
   {
     "id": 16,
     "name": "SERON_Iconic Collection",
     "image": "/images/SERON_Iconic_Collection.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "iconic-story",
-    "collectionLabel": "Iconic Story"
+    "collectionLabel": "Iconic Story",
+    "partnerSlug": "seron"
   },
   {
     "id": 17,
     "name": "Shape touch 600 x 1200 mm Seron v4",
     "image": "/images/Shape_touch_600_x_1200_mm_Seron_v4.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "shape-touch",
-    "collectionLabel": "Shape Touch"
+    "collectionLabel": "Shape Touch",
+    "partnerSlug": "seron"
   },
   {
     "id": 18,
     "name": "Shape touch 600x1200mm Seron",
     "image": "/images/Shape_touch_600x1200mm_Seron.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "shape-touch",
-    "collectionLabel": "Shape Touch"
+    "collectionLabel": "Shape Touch",
+    "partnerSlug": "seron"
   },
   {
     "id": 19,
     "name": "Shape touch Pro 600 x 1200 mm Seron v5",
     "image": "/images/Shape_touch_Pro_600_x_1200_mm_Seron_v5.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "shape-touch-pro",
-    "collectionLabel": "Shape Touch Pro"
+    "collectionLabel": "Shape Touch Pro",
+    "partnerSlug": "seron"
   },
   {
     "id": 20,
     "name": "Shape touch Pro 600x1200mm Seron",
     "image": "/images/Shape_touch_Pro_600x1200mm_Seron.jpg",
     "sizeSlug": "600-x-1200-mm-x-9-mm",
-    "sizeLabel": "600 \u00d7 1200 mm (9 mm)",
+    "sizeLabel": "600 × 1200 mm (9 mm)",
     "collectionSlug": "shape-touch-pro",
-    "collectionLabel": "Shape Touch Pro"
+    "collectionLabel": "Shape Touch Pro",
+    "partnerSlug": "seron"
   },
   {
     "id": 21,
     "name": "Seron 80 x 160 cm Carving",
     "image": "/images/Seron_80_x_160_cm_Carving.jpg",
     "sizeSlug": "800-x-1600-mm",
-    "sizeLabel": "800 \u00d7 1600 mm",
+    "sizeLabel": "800 × 1600 mm",
     "collectionSlug": "techno-marble",
-    "collectionLabel": "Techno Marble"
+    "collectionLabel": "Techno Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 22,
     "name": "Seron 80 x 160 cm Pearl Finish E-Catalogue Jan 24",
     "image": "/images/Seron_80_x_160_cm_Pearl_Finish_E-Catalogue_Jan_24.jpg",
     "sizeSlug": "800-x-1600-mm",
-    "sizeLabel": "800 \u00d7 1600 mm",
+    "sizeLabel": "800 × 1600 mm",
     "collectionSlug": "pearl",
-    "collectionLabel": "Pearl"
+    "collectionLabel": "Pearl",
+    "partnerSlug": "seron"
   },
   {
     "id": 23,
     "name": "Seron 800 x 1600 Glossy",
     "image": "/images/Seron_800_x_1600_Glossy.jpg",
     "sizeSlug": "800-x-1600-mm",
-    "sizeLabel": "800 \u00d7 1600 mm",
+    "sizeLabel": "800 × 1600 mm",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 24,
     "name": "Seron 800 x 1600 Glossy v20",
     "image": "/images/Seron_800_x_1600_Glossy_v20.jpg",
     "sizeSlug": "800-x-1600-mm",
-    "sizeLabel": "800 \u00d7 1600 mm",
+    "sizeLabel": "800 × 1600 mm",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 25,
     "name": "Seron 80 x 240 cm Fullbody Ecatalogue Jan 26",
     "image": "/images/Seron_80_x_240_cm_Fullbody_Ecatalogue_Jan_26.jpg",
     "sizeSlug": "800-x-2400-mm",
-    "sizeLabel": "800 \u00d7 2400 mm",
+    "sizeLabel": "800 × 2400 mm",
     "collectionSlug": "full-body",
-    "collectionLabel": "Full Body"
+    "collectionLabel": "Full Body",
+    "partnerSlug": "seron"
   },
   {
     "id": 26,
     "name": "120 x 180 cm High Gloss E-catalogue July 26",
     "image": "/images/120_x_180_cm_High_Gloss_E-catalogue_July_26.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "high-gloss",
-    "collectionLabel": "High Gloss"
+    "collectionLabel": "High Gloss",
+    "partnerSlug": "seron"
   },
   {
     "id": 27,
     "name": "1200 x 1800 mm Glossy + Pearl",
     "image": "/images/1200_x_1800_mm_Glossy_Pearl.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "pearl",
-    "collectionLabel": "Pearl"
+    "collectionLabel": "Pearl",
+    "partnerSlug": "seron"
   },
   {
     "id": 28,
     "name": "1200 x 1800 mm Only Matt",
     "image": "/images/1200_x_1800_mm_Only_Matt.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "techno-marble",
-    "collectionLabel": "Techno Marble"
+    "collectionLabel": "Techno Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 29,
     "name": "Seron 120 x 180 cm 15 mm E-Catalogue Feb 24",
     "image": "/images/Seron_120_x_180_cm_15_mm_E-Catalogue_Feb_24.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "techno-marble",
-    "collectionLabel": "Techno Marble"
+    "collectionLabel": "Techno Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 30,
     "name": "Seron 120 x 180 cm Glossy 15mm Ecatalogue May 25",
     "image": "/images/Seron_120_x_180_cm_Glossy_15mm_Ecatalogue_May_25.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "techno-marble",
-    "collectionLabel": "Techno Marble"
+    "collectionLabel": "Techno Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 31,
     "name": "Seron 120 x 180 cm Glossy E-catalogue June 26",
     "image": "/images/Seron_120_x_180_cm_Glossy_E-catalogue_June_26.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 32,
     "name": "Seron 120 x 180 cm GVT Catalogue Dec 24",
     "image": "/images/Seron_120_x_180_cm_GVT_Catalogue_Dec_24.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 33,
     "name": "Seron 120 x 180 cm Marble Collection E-Catalogue April 24",
     "image": "/images/Seron_120_x_180_cm_Marble_Collection_E-Catalogue_April_24.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "marble",
-    "collectionLabel": "Marble"
+    "collectionLabel": "Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 34,
     "name": "Seron 120 x 180 cm Marble Collection E-catalogue July 26",
     "image": "/images/Seron_120_x_180_cm_Marble_Collection_E-catalogue_July_26.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "marble",
-    "collectionLabel": "Marble"
+    "collectionLabel": "Marble",
+    "partnerSlug": "seron"
   },
   {
     "id": 35,
     "name": "Seron 120 x 180 cm Paper Matt Feb 26",
     "image": "/images/Seron_120_x_180_cm_Paper_Matt_Feb_26.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "paper-matt",
-    "collectionLabel": "Paper Matt"
+    "collectionLabel": "Paper Matt",
+    "partnerSlug": "seron"
   },
   {
     "id": 36,
     "name": "Seron 120 x 180 cm Taj Collection June 25",
     "image": "/images/Seron_120_x_180_cm_Taj_Collection_June_25.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "taj",
-    "collectionLabel": "Taj"
+    "collectionLabel": "Taj",
+    "partnerSlug": "seron"
   },
   {
     "id": 37,
     "name": "Seron 1200 x 1800 mm Glossy Endless",
     "image": "/images/Seron_1200_x_1800_mm_Glossy_Endless.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "glossy",
-    "collectionLabel": "Glossy"
+    "collectionLabel": "Glossy",
+    "partnerSlug": "seron"
   },
   {
     "id": 38,
     "name": "Seron 1200 x 1800 mm Grenula Catalogue",
     "image": "/images/Seron_1200_x_1800_mm_Grenula_Catalogue.jpg",
     "sizeSlug": "1200-x-1800-mm-x-9-mm-15-mm",
-    "sizeLabel": "1200 \u00d7 1800 mm (9 & 15 mm)",
+    "sizeLabel": "1200 × 1800 mm (9 & 15 mm)",
     "collectionSlug": "grenulla",
-    "collectionLabel": "Grenulla"
+    "collectionLabel": "Grenulla",
+    "partnerSlug": "seron"
+  },
+  {
+    "id": 39,
+    "name": "ALCORA CREMA-R1",
+    "image": "/siyaram/alcora-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 40,
+    "name": "ALCORA GREY",
+    "image": "/siyaram/alcora-grey.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 41,
+    "name": "ARTIC FEEL",
+    "image": "/siyaram/artic-feel.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 42,
+    "name": "BLISTER BEIGE_R1",
+    "image": "/siyaram/blister-beige-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 43,
+    "name": "BLISTER BIANCO_R1",
+    "image": "/siyaram/blister-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 44,
+    "name": "BLISTER BROWN_R1",
+    "image": "/siyaram/blister-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 45,
+    "name": "BLISTER CHOCO_R1",
+    "image": "/siyaram/blister-choco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 46,
+    "name": "BLISTER CREMA_R1",
+    "image": "/siyaram/blister-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 47,
+    "name": "BLISTER GRIS_R1",
+    "image": "/siyaram/blister-gris-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 48,
+    "name": "BOLONIA BEIGE-R1",
+    "image": "/siyaram/bolonia-beige-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 49,
+    "name": "BOLONIA BROWN-R1",
+    "image": "/siyaram/bolonia-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 50,
+    "name": "BOLONIA GRAFITO-R1",
+    "image": "/siyaram/bolonia-grafito-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 51,
+    "name": "BOLONIA PEARL-R1",
+    "image": "/siyaram/bolonia-pearl-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 52,
+    "name": "BOTTOCINO BEIGE CRACK R1",
+    "image": "/siyaram/bottocino-beige-crack-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 53,
+    "name": "BRESSIA SILVER-R1",
+    "image": "/siyaram/bressia-silver-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 54,
+    "name": "CANYON BROWN-R1",
+    "image": "/siyaram/canyon-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 55,
+    "name": "CANYON GREY-R1",
+    "image": "/siyaram/canyon-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 56,
+    "name": "CARNELIAN BIANCO_R1",
+    "image": "/siyaram/carnelian-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 57,
+    "name": "CARNELIAN BROWN_R1",
+    "image": "/siyaram/carnelian-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 58,
+    "name": "CARNELIAN CREMA_R1",
+    "image": "/siyaram/carnelian-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 59,
+    "name": "CEMENTO NERO-R1",
+    "image": "/siyaram/cemento-nero-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 60,
+    "name": "CWM6001-R1",
+    "image": "/siyaram/cwm6001-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 61,
+    "name": "CWM6002-R1",
+    "image": "/siyaram/cwm6002-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 62,
+    "name": "CWM6003-R1",
+    "image": "/siyaram/cwm6003-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 63,
+    "name": "CWM6013",
+    "image": "/siyaram/cwm6013.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 64,
+    "name": "DEVILO CRACK R1",
+    "image": "/siyaram/devilo-crack-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 65,
+    "name": "DOLCE BLANCO-G8",
+    "image": "/siyaram/dolce-blanco-g8.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 66,
+    "name": "EARTHEN FEEL-R1",
+    "image": "/siyaram/earthen-feel-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 67,
+    "name": "ELEMENT BEIGE-R1",
+    "image": "/siyaram/element-beige-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 68,
+    "name": "ELEMENT CREMA-R1",
+    "image": "/siyaram/element-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 69,
+    "name": "EXPLORER DARK GREY",
+    "image": "/siyaram/explorer-dark-grey.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 70,
+    "name": "GARNET BIANCO_R1",
+    "image": "/siyaram/garnet-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 71,
+    "name": "GARNET GREY_R1",
+    "image": "/siyaram/garnet-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 72,
+    "name": "GARNET GRIS_R1",
+    "image": "/siyaram/garnet-gris-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 73,
+    "name": "GLORIA BROWN_R1",
+    "image": "/siyaram/gloria-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 74,
+    "name": "GLORIA CREMA_R1",
+    "image": "/siyaram/gloria-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 75,
+    "name": "KERITO BEIGE CRACK R1",
+    "image": "/siyaram/kerito-beige-crack-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 76,
+    "name": "LAGOS ANTARCTICA_R1",
+    "image": "/siyaram/lagos-antarctica-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 77,
+    "name": "LAGOS GREY_R1",
+    "image": "/siyaram/lagos-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 78,
+    "name": "LAPIS CREMA_R1",
+    "image": "/siyaram/lapis-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 79,
+    "name": "MOROCON-001-DK",
+    "image": "/siyaram/morocon-001-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 80,
+    "name": "MOROCON-002-DK",
+    "image": "/siyaram/morocon-002-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 81,
+    "name": "MOROCON-003-DK",
+    "image": "/siyaram/morocon-003-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 82,
+    "name": "MOROCON-004-DK",
+    "image": "/siyaram/morocon-004-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 83,
+    "name": "MOROCON-005-DK",
+    "image": "/siyaram/morocon-005-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 84,
+    "name": "MOROCON-006-DK",
+    "image": "/siyaram/morocon-006-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 85,
+    "name": "MOROCON-007-DK",
+    "image": "/siyaram/morocon-007-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 86,
+    "name": "MOROCON-008-DK",
+    "image": "/siyaram/morocon-008-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 87,
+    "name": "MOROCON-009-DK",
+    "image": "/siyaram/morocon-009-dk.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 88,
+    "name": "MUNICH IVORY",
+    "image": "/siyaram/munich-ivory.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 89,
+    "name": "MYSTIC BIANCO_R1",
+    "image": "/siyaram/mystic-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 90,
+    "name": "MYSTIC BROWN_R1",
+    "image": "/siyaram/mystic-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 91,
+    "name": "NEXA BROWN",
+    "image": "/siyaram/nexa-brown.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 92,
+    "name": "OLIVIA CREMA 2",
+    "image": "/siyaram/olivia-crema-2.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 93,
+    "name": "PARKER BIANCO_R1",
+    "image": "/siyaram/parker-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 94,
+    "name": "PARKER BROWN_R1",
+    "image": "/siyaram/parker-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 95,
+    "name": "PARKER CHOCO_R1",
+    "image": "/siyaram/parker-choco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 96,
+    "name": "PARKER CREMA_R1",
+    "image": "/siyaram/parker-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 97,
+    "name": "PARKER GRIS_R1",
+    "image": "/siyaram/parker-gris-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 98,
+    "name": "PARKER IVORY_R1",
+    "image": "/siyaram/parker-ivory-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 99,
+    "name": "PARKER ROSE_R1",
+    "image": "/siyaram/parker-rose-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 100,
+    "name": "PERIDOT BROWN_R1",
+    "image": "/siyaram/peridot-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 101,
+    "name": "PERIDOT CREMA_R1",
+    "image": "/siyaram/peridot-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 102,
+    "name": "PLUTONIC BIANCO_R1",
+    "image": "/siyaram/plutonic-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 103,
+    "name": "PLUTONIC CHOCO_R1",
+    "image": "/siyaram/plutonic-choco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 104,
+    "name": "PLUTONIC GREY_R1",
+    "image": "/siyaram/plutonic-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 105,
+    "name": "ROMAN BOTTOCHINO-R1",
+    "image": "/siyaram/roman-bottochino-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 106,
+    "name": "SAHARA ASH_NEW-AP",
+    "image": "/siyaram/sahara-ash-new-ap.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 107,
+    "name": "SNP BLACK",
+    "image": "/siyaram/snp-black.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 108,
+    "name": "STM6001-R1",
+    "image": "/siyaram/stm6001-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 109,
+    "name": "STM6002-R1",
+    "image": "/siyaram/stm6002-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 110,
+    "name": "STM6003-R1",
+    "image": "/siyaram/stm6003-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 111,
+    "name": "STONE SILVER-R1",
+    "image": "/siyaram/stone-silver-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 112,
+    "name": "SURFACE BEIGE_01",
+    "image": "/siyaram/surface-beige-01.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 113,
+    "name": "SURFACE CREMA_01",
+    "image": "/siyaram/surface-crema-01.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 114,
+    "name": "TESTO BIANCO-R1",
+    "image": "/siyaram/testo-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 115,
+    "name": "TORSO_DARK-R1",
+    "image": "/siyaram/torso-dark-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 116,
+    "name": "TORSO_LIGHT-R1",
+    "image": "/siyaram/torso-light-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 117,
+    "name": "TRM6001-R1",
+    "image": "/siyaram/trm6001-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 118,
+    "name": "TRM6002-R1",
+    "image": "/siyaram/trm6002-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 119,
+    "name": "TRM6003-R1",
+    "image": "/siyaram/trm6003-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 120,
+    "name": "URBAN BEIGE_R1",
+    "image": "/siyaram/urban-beige-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 121,
+    "name": "URBAN BIANCO_R1",
+    "image": "/siyaram/urban-bianco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 122,
+    "name": "URBAN GREY_R1",
+    "image": "/siyaram/urban-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 123,
+    "name": "URBAN NERO_R1",
+    "image": "/siyaram/urban-nero-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 124,
+    "name": "VELVET CHOCO-R1",
+    "image": "/siyaram/velvet-choco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 125,
+    "name": "VELVET CREMA-R1",
+    "image": "/siyaram/velvet-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 126,
+    "name": "VELVET GRIS-R1",
+    "image": "/siyaram/velvet-gris-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 127,
+    "name": "VELVET SKY-R1",
+    "image": "/siyaram/velvet-sky-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 128,
+    "name": "VINICE",
+    "image": "/siyaram/vinice.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 129,
+    "name": "VOLTA GREY-R1",
+    "image": "/siyaram/volta-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 130,
+    "name": "WB TRAVERTINO BEIGE",
+    "image": "/siyaram/wb-travertino-beige.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 131,
+    "name": "WILD STONE BLACK-( H )",
+    "image": "/siyaram/wild-stone-black-h.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "rustic-series",
+    "collectionLabel": "Rustic Series"
+  },
+  {
+    "id": 132,
+    "name": "ANGLO BROWN",
+    "image": "/siyaram/anglo-brown.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 133,
+    "name": "AZOTIC VERDE",
+    "image": "/siyaram/azotic-verde.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 134,
+    "name": "INTUION WHITE",
+    "image": "/siyaram/intuion-white.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 135,
+    "name": "OXIDO BLUE",
+    "image": "/siyaram/oxido-blue.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 136,
+    "name": "WEBZA CHOCO",
+    "image": "/siyaram/webza-choco.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "glossy",
+    "collectionLabel": "Glossy"
+  },
+  {
+    "id": 137,
+    "name": "SMALL RANGOLI-2-(1152)",
+    "image": "/siyaram/small-rangoli-2-1152.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "small-rangoli-series",
+    "collectionLabel": "Small Rangoli Series"
+  },
+  {
+    "id": 138,
+    "name": "CRYSTAL MOSAIC copy",
+    "image": "/siyaram/crystal-mosaic-copy.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "terrezo-series",
+    "collectionLabel": "Terrezo Series"
+  },
+  {
+    "id": 139,
+    "name": "NATURAL STONE MOSAIC-R1",
+    "image": "/siyaram/natural-stone-mosaic-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "terrezo-series",
+    "collectionLabel": "Terrezo Series"
+  },
+  {
+    "id": 140,
+    "name": "SCORIA CREMA_R1",
+    "image": "/siyaram/scoria-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "terrezo-series",
+    "collectionLabel": "Terrezo Series"
+  },
+  {
+    "id": 141,
+    "name": "SCORIA GREY_R1",
+    "image": "/siyaram/scoria-grey-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "terrezo-series",
+    "collectionLabel": "Terrezo Series"
+  },
+  {
+    "id": 142,
+    "name": "TERRAZZO BLACK_R1",
+    "image": "/siyaram/terrazzo-black-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "terrezo-series",
+    "collectionLabel": "Terrezo Series"
+  },
+  {
+    "id": 143,
+    "name": "3D-01",
+    "image": "/siyaram/3d-01.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "3d-series",
+    "collectionLabel": "3D Series"
+  },
+  {
+    "id": 144,
+    "name": "BRECIA EARIC-R1",
+    "image": "/siyaram/brecia-earic-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 145,
+    "name": "CALCUTTA NOUNCE-R1",
+    "image": "/siyaram/calcutta-nounce-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 146,
+    "name": "DYNA GOLDY-R1",
+    "image": "/siyaram/dyna-goldy-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 147,
+    "name": "IMPERIAL BLANCH-R1",
+    "image": "/siyaram/imperial-blanch-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 148,
+    "name": "MAGNUM CLASSIC STATURIO-R1",
+    "image": "/siyaram/magnum-classic-staturio-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 149,
+    "name": "STERLING BEIGE-R1",
+    "image": "/siyaram/sterling-beige-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "continue-marble-series",
+    "collectionLabel": "Continue Marble Series"
+  },
+  {
+    "id": 150,
+    "name": "ALEXA BLUE",
+    "image": "/siyaram/alexa-blue.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 151,
+    "name": "ALEXA BROWN",
+    "image": "/siyaram/alexa-brown.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 152,
+    "name": "ALEXA NERO",
+    "image": "/siyaram/alexa-nero.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 153,
+    "name": "DREGON BLACK",
+    "image": "/siyaram/dregon-black.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 154,
+    "name": "GALAXY BROWN",
+    "image": "/siyaram/galaxy-brown.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 155,
+    "name": "MATRIX BEIGE",
+    "image": "/siyaram/matrix-beige.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 156,
+    "name": "MAXICAN GREY",
+    "image": "/siyaram/maxican-grey.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 157,
+    "name": "PHENTOM BROWN",
+    "image": "/siyaram/phentom-brown.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 158,
+    "name": "PLAZMA BROWN-R1",
+    "image": "/siyaram/plazma-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 159,
+    "name": "PLUTO BLUE",
+    "image": "/siyaram/pluto-blue.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 160,
+    "name": "TEXAS BLUE",
+    "image": "/siyaram/texas-blue.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 161,
+    "name": "TROPIC BLUE",
+    "image": "/siyaram/tropic-blue.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-dark-series",
+    "collectionLabel": "DC Dark Series"
+  },
+  {
+    "id": 162,
+    "name": "ALEXA CREMA",
+    "image": "/siyaram/alexa-crema.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 163,
+    "name": "GALAXY BEIGE",
+    "image": "/siyaram/galaxy-beige.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 164,
+    "name": "MATRIX WHITE",
+    "image": "/siyaram/matrix-white.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 165,
+    "name": "MAXICAN CREMA",
+    "image": "/siyaram/maxican-crema.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 166,
+    "name": "PLAZMA CREMA-R1",
+    "image": "/siyaram/plazma-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 167,
+    "name": "PLUTO WHITE",
+    "image": "/siyaram/pluto-white.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 168,
+    "name": "POLO WHITE",
+    "image": "/siyaram/polo-white.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 169,
+    "name": "SPIDER CREMA",
+    "image": "/siyaram/spider-crema.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 170,
+    "name": "TEXAS WHITE",
+    "image": "/siyaram/texas-white.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 171,
+    "name": "TROPIC CREMA",
+    "image": "/siyaram/tropic-crema.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "dc-series",
+    "collectionLabel": "DC Series"
+  },
+  {
+    "id": 172,
+    "name": "GEO METRIX-1301",
+    "image": "/siyaram/geo-metrix-1301.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "geo-metrix-series",
+    "collectionLabel": "Geo Metrix Series"
+  },
+  {
+    "id": 173,
+    "name": "ARMANI BROWN-R1",
+    "image": "/siyaram/armani-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 174,
+    "name": "ARMANI CREMA-R1",
+    "image": "/siyaram/armani-crema-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 175,
+    "name": "ARMANI GOLD-R1",
+    "image": "/siyaram/armani-gold-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 176,
+    "name": "BELICE NATURAL-R2",
+    "image": "/siyaram/belice-natural-r2.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 177,
+    "name": "BRONZE LIGHT-R1",
+    "image": "/siyaram/bronze-light-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 178,
+    "name": "CANEL BROWN-R1",
+    "image": "/siyaram/canel-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 179,
+    "name": "CAUCASION FURY",
+    "image": "/siyaram/caucasion-fury.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 180,
+    "name": "CLONIC WHITE-R1",
+    "image": "/siyaram/clonic-white-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 181,
+    "name": "DARK EMPRA-R1",
+    "image": "/siyaram/dark-empra-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 182,
+    "name": "EMPRADOR CHOCO-R1",
+    "image": "/siyaram/emprador-choco-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 183,
+    "name": "GLIMAR BROWN-R1",
+    "image": "/siyaram/glimar-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 184,
+    "name": "GOLDEN EMPRA-R1",
+    "image": "/siyaram/golden-empra-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 185,
+    "name": "HARMONY BLUE-R1",
+    "image": "/siyaram/harmony-blue-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 186,
+    "name": "INTAL BLACK-R1",
+    "image": "/siyaram/intal-black-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 187,
+    "name": "KEILY BROWN-R1",
+    "image": "/siyaram/keily-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 188,
+    "name": "LANZ ONYX-R1",
+    "image": "/siyaram/lanz-onyx-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 189,
+    "name": "MODENA BLUE-R1",
+    "image": "/siyaram/modena-blue-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 190,
+    "name": "MODENA BROWN-R1",
+    "image": "/siyaram/modena-brown-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 191,
+    "name": "NEVY BLUE-R1",
+    "image": "/siyaram/nevy-blue-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 192,
+    "name": "PULPIS BLUE-R1",
+    "image": "/siyaram/pulpis-blue-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 193,
+    "name": "RANGOLI 6 (1150)",
+    "image": "/siyaram/rangoli-6-1150.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 194,
+    "name": "WHITE COSMOS-R1",
+    "image": "/siyaram/white-cosmos-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 195,
+    "name": "ZEBRANO-R1",
+    "image": "/siyaram/zebrano-r1.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "hi-glossy-series",
+    "collectionLabel": "Hi Glossy Series"
+  },
+  {
+    "id": 196,
+    "name": "MOSAIC-2001",
+    "image": "/siyaram/mosaic-2001.jpg",
+    "partnerSlug": "siyaram",
+    "sizeSlug": "600-x-600-mm",
+    "sizeLabel": "600 × 600 mm",
+    "collectionSlug": "mosaic-series",
+    "collectionLabel": "Mosaic Series"
   }
 ]

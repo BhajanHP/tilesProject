@@ -11,7 +11,7 @@ export const PARTNERS = [
     name: 'Siyaram',
     tagline: 'Superficie di Qualità',
     logo: '/partner_client_images/l-2.png',
-    hasCatalog: false,
+    hasCatalog: true,
   },
   {
     slug: 'asta',

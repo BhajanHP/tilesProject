@@ -78,6 +78,7 @@ export default function App() {
 
       {page === 'catalog' && partner && partner.hasCatalog && (
         <ProductPage
+          partnerSlug={partner.slug}
           activeSize={activeSize}
           activeCollection={activeCollection}
           onSize={setActiveSize}
