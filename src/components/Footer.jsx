@@ -85,7 +85,7 @@ export default function Footer({ onNavigate, onScrollTo }) {
         })}
       </div>
 
-      <p className="site-footer__copy">© 2026 Aanjaya Tiles. All Rights Reserved.</p>
+      <p className="site-footer__copy">© {new Date().getFullYear()} Aanjaya Tiles. All Rights Reserved.</p>
     </footer>
   )
 }
