@@ -3,6 +3,7 @@ import products from '../data/products.json'
 import FilterSidebar from './FilterSidebar.jsx'
 import ProductGrid from './ProductGrid.jsx'
 import ProductModal from './ProductModal.jsx'
+import SeronCatalogueBrowser from './SeronCatalogueBrowser.jsx'
 
 const SIZE_ORDER = [
   '600-x-600-mm',
@@ -77,7 +78,7 @@ export default function ProductPage({ partnerSlug, activeSize, activeCollection,
           <div className="page-header__meta">
             <span>Product catalog</span>
             <span className="dot-sep" aria-hidden="true" />
-            <span>{filtered.length} of {partnerProducts.length} tiles</span>
+            <span>{partnerProducts.length} tiles</span>
           </div>
         </div>
         <div className="page-header__heading">
@@ -88,34 +89,38 @@ export default function ProductPage({ partnerSlug, activeSize, activeCollection,
         </div>
       </div>
 
-      <div className="layout">
-        <FilterSidebar
-          sizeFacets={sizeFacets}
-          collectionFacets={collectionFacets}
-          activeSize={activeSize}
-          activeCollection={activeCollection}
-          onSize={onSize}
-          onCollection={onCollection}
-          onClear={clearFilters}
-        />
+      {partnerSlug === 'seron' ? (
+        <SeronCatalogueBrowser />
+      ) : (
+        <div className="layout">
+          <FilterSidebar
+            sizeFacets={sizeFacets}
+            collectionFacets={collectionFacets}
+            activeSize={activeSize}
+            activeCollection={activeCollection}
+            onSize={onSize}
+            onCollection={onCollection}
+            onClear={clearFilters}
+          />
 
-        <main className="content">
-          {filtered.length === 0 ? (
-            <div className="empty-state">
-              <svg viewBox="0 0 24 24" width="40" height="40" className="empty-state__icon" aria-hidden="true">
-                <path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-                <path d="M15.5 15.5l5 5m0-5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-              <p>No tiles match this combination.</p>
-              <button type="button" className="text-link" onClick={clearFilters}>
-                Clear filters
-              </button>
-            </div>
-          ) : (
-            <ProductGrid products={filtered} onSelect={setActiveProduct} />
-          )}
-        </main>
-      </div>
+          <main className="content">
+            {filtered.length === 0 ? (
+              <div className="empty-state">
+                <svg viewBox="0 0 24 24" width="40" height="40" className="empty-state__icon" aria-hidden="true">
+                  <path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+                  <path d="M15.5 15.5l5 5m0-5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                </svg>
+                <p>No tiles match this combination.</p>
+                <button type="button" className="text-link" onClick={clearFilters}>
+                  Clear filters
+                </button>
+              </div>
+            ) : (
+              <ProductGrid products={filtered} onSelect={setActiveProduct} />
+            )}
+          </main>
+        </div>
+      )}
 
       {activeProduct && (
         <ProductModal product={activeProduct} onClose={() => setActiveProduct(null)} />

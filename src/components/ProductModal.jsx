@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import ProductDetail from './ProductDetail.jsx'
 
 export default function ProductModal({ product, onClose }) {
   useEffect(() => {
@@ -17,21 +18,7 @@ export default function ProductModal({ product, onClose }) {
             <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
         </button>
-        <img className="modal__image" src={product.image} alt={product.name} />
-        <div className="modal__details">
-          <p className="modal__eyebrow">{product.collectionLabel}</p>
-          <h3>{product.name}</h3>
-          <dl>
-            <div>
-              <dt>Size</dt>
-              <dd>{product.sizeLabel}</dd>
-            </div>
-            <div>
-              <dt>Collection</dt>
-              <dd>{product.collectionLabel}</dd>
-            </div>
-          </dl>
-        </div>
+        <ProductDetail product={product} />
       </div>
     </div>
   )

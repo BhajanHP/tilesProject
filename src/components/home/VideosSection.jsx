@@ -1,13 +1,27 @@
+import { useState } from 'react'
 import WipeHeading from './WipeHeading.jsx'
 
 const VIDEOS = [
-  { title: 'Latest Tile Designs at Aanjaya Tiles', views: '2.4K views', tone: 'v1' },
-  { title: 'Modern Bathroom Tile Ideas', views: '1.8K views', tone: 'v2' },
-  { title: 'Explore Our Showroom', views: '3.1K views', tone: 'v3' },
-  { title: 'Stylish Kitchen Tile Designs', views: '2.6K views', tone: 'v4' },
+  {
+    id: 'YYO0hfV9g2A',
+    title: 'Massive Tiles Wholesale Godown in Tumkur | Aanjaya Tiles (16,000 Sq. Ft. Warehouse)',
+    tone: 'v1',
+  },
+  {
+    id: 'YpCUvFpIEZA',
+    title: 'Namaskara Tumkur! Discover Premium Quality Tiles at Aanjaya Tiles',
+    tone: 'v2',
+  },
+  {
+    id: 'hcw74O1Ntdk',
+    title: 'Grand Opening of Aanjaya Tiles | Exclusive Showroom in Tumkur',
+    tone: 'v3',
+  },
 ]
 
 export default function VideosSection() {
+  const [activeVideo, setActiveVideo] = useState(null)
+
   return (
     <section id="videos" className="videos">
       <div className="videos__head">
@@ -19,8 +33,9 @@ export default function VideosSection() {
         </div>
         <a
           className="btn btn--outline reveal"
-          href="#videos"
-          onClick={(e) => e.preventDefault()}
+          href="https://www.youtube.com/@AanjayaTiles"
+          target="_blank"
+          rel="noreferrer"
         >
           Visit Our YouTube
           <span aria-hidden="true"> &rarr;</span>
@@ -29,21 +44,57 @@ export default function VideosSection() {
 
       <ul className="videos__grid reveal-group">
         {VIDEOS.map((v) => (
-          <li key={v.title} className={`video-card tilt video-card--${v.tone}`}>
-            <div className="video-card__thumb">
-              <span className="video-card__play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="22" height="22">
-                  <path d="M8 5v14l11-7-11-7Z" fill="currentColor" />
-                </svg>
+          <li key={v.id} className={`video-card tilt video-card--${v.tone}`}>
+            <button type="button" className="video-card__link" onClick={() => setActiveVideo(v)}>
+              <span className="video-card__thumb">
+                <img
+                  src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                  alt={v.title}
+                  loading="lazy"
+                />
+                <span className="video-card__play" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22">
+                    <path d="M8 5v14l11-7-11-7Z" fill="currentColor" />
+                  </svg>
+                </span>
               </span>
-            </div>
-            <div className="video-card__meta">
-              <p className="video-card__title">{v.title}</p>
-              <p className="video-card__views">{v.views}</p>
-            </div>
+              <span className="video-card__meta">
+                <span className="video-card__title">{v.title}</span>
+              </span>
+            </button>
           </li>
         ))}
       </ul>
+
+      {activeVideo && (
+        <div
+          className="video-modal-backdrop"
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setActiveVideo(null)}
+        >
+          <div className="video-modal" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="video-modal__close"
+              onClick={() => setActiveVideo(null)}
+              aria-label="Close video"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+            </button>
+            <div className="video-modal__frame">
+              <iframe
+                src={`https://www.youtube.com/embed/${activeVideo.id}?autoplay=1`}
+                title={activeVideo.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }

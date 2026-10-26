@@ -816,6 +816,122 @@
   background: rgba(255, 255, 255, 0.22);
 }
 
+/* ---------- Seron catalogue browser ---------- */
+
+.catalogue-browser {
+  padding: 1.5rem clamp(1.25rem, 4vw, 3rem) 3.5rem;
+}
+
+.catalogue-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.85rem;
+}
+
+.catalogue-breadcrumb__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.catalogue-breadcrumb__sep {
+  color: var(--ink-muted);
+}
+
+.catalogue-breadcrumb button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--ink-muted);
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.catalogue-breadcrumb button:hover {
+  color: var(--crimson);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.catalogue-breadcrumb__current {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.catalogue-folder-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1.1rem;
+}
+
+.catalogue-product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.catalogue-folder {
+  position: relative;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--grout);
+  border-radius: 14px;
+  padding: 1.75rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  font-family: inherit;
+  transition: transform 0.3s cubic-bezier(0.16, 0.84, 0.44, 1), box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.catalogue-folder:hover,
+.catalogue-folder:focus-visible {
+  border-color: var(--crimson);
+  box-shadow: 0 18px 32px rgba(224, 33, 44, 0.12);
+  transform: translateY(-4px);
+}
+
+.catalogue-folder__icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--clay-soft);
+  color: var(--crimson);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.catalogue-folder:hover .catalogue-folder__icon {
+  transform: scale(1.08);
+}
+
+.catalogue-folder__name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-transform: uppercase;
+}
+
+.catalogue-folder__count {
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+}
+
 /* ---------- Content / Grid ---------- */
 
 .content {
@@ -1159,17 +1275,19 @@
 }
 
 .modal {
-  background: var(--surface);
   max-width: 900px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
   border-radius: 18px;
   box-shadow: 0 32px 70px rgba(0, 0, 0, 0.32);
   animation: modalIn 0.3s cubic-bezier(0.16, 0.84, 0.44, 1) both;
+}
+
+.modal .product-detail {
+  border-radius: inherit;
+  box-shadow: none;
 }
 
 @keyframes modalIn {
@@ -1180,12 +1298,6 @@
   to {
     opacity: 1;
     transform: none;
-  }
-}
-
-@media (max-width: 700px) {
-  .modal {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -1214,18 +1326,37 @@
   transform: rotate(90deg) scale(1.08);
 }
 
-.modal__image {
+/* ---------- Product detail (shared by modal + inline catalogue leaf view) ---------- */
+
+.product-detail {
+  background: var(--surface);
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 48px rgba(30, 28, 25, 0.12);
+}
+
+@media (max-width: 700px) {
+  .product-detail,
+  .modal {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-detail__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   max-height: 90vh;
+  display: block;
 }
 
-.modal__details {
+.product-detail__info {
   padding: 2rem 1.75rem;
 }
 
-.modal__eyebrow {
+.product-detail__eyebrow {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -1234,7 +1365,7 @@
   margin: 0 0 0.5rem;
 }
 
-.modal__details h3 {
+.product-detail__info h3 {
   font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 600;
@@ -1243,21 +1374,21 @@
   text-transform: uppercase;
 }
 
-.modal__details dl {
+.product-detail__info dl {
   margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
 
-.modal__details dl > div {
+.product-detail__info dl > div {
   background: var(--cloud);
   border: 1px solid var(--grout);
   border-radius: 10px;
   padding: 0.7rem 0.9rem;
 }
 
-.modal__details dt {
+.product-detail__info dt {
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1266,7 +1397,12 @@
   margin-bottom: 0.25rem;
 }
 
-.modal__details dd {
+.product-detail__pdf-link {
+  display: inline-flex;
+  margin-top: 1.25rem;
+}
+
+.product-detail__info dd {
   margin: 0;
   font-size: 0.95rem;
   font-weight: 600;
