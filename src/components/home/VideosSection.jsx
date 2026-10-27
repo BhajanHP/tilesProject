@@ -6,16 +6,19 @@ const VIDEOS = [
     id: 'YYO0hfV9g2A',
     title: 'Massive Tiles Wholesale Godown in Tumkur | Aanjaya Tiles (16,000 Sq. Ft. Warehouse)',
     tone: 'v1',
+    thumbnail: '/thumbnail/godown_thumb.jpg.jpeg',
   },
   {
     id: 'YpCUvFpIEZA',
     title: 'Namaskara Tumkur! Discover Premium Quality Tiles at Aanjaya Tiles',
     tone: 'v2',
+    thumbnail: '/thumbnail/tiles_thumb.jpg.jpeg',
   },
   {
     id: 'hcw74O1Ntdk',
     title: 'Grand Opening of Aanjaya Tiles | Exclusive Showroom in Tumkur',
     tone: 'v3',
+    thumbnail: '/thumbnail/grand_opening.jpg.jpeg',
   },
 ]
 
@@ -48,7 +51,7 @@ export default function VideosSection() {
             <button type="button" className="video-card__link" onClick={() => setActiveVideo(v)}>
               <span className="video-card__thumb">
                 <img
-                  src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                  src={v.thumbnail || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
                   alt={v.title}
                   loading="lazy"
                 />
@@ -57,9 +60,6 @@ export default function VideosSection() {
                     <path d="M8 5v14l11-7-11-7Z" fill="currentColor" />
                   </svg>
                 </span>
-              </span>
-              <span className="video-card__meta">
-                <span className="video-card__title">{v.title}</span>
               </span>
             </button>
           </li>

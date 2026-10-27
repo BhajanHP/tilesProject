@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import FloatingContact from './components/FloatingContact.jsx'
@@ -12,12 +12,56 @@ import useTilt from './hooks/useTilt.js'
 import useMagnetic from './hooks/useMagnetic.js'
 import './App.css'
 
+function parseLocation() {
+  const path = window.location.pathname.replace(/\/+$/, '') || '/'
+  const params = new URLSearchParams(window.location.search)
+  const segments = path.split('/').filter(Boolean)
+
+  if (segments[0] === 'products' && segments[1]) {
+    const partnerSlug = segments[1]
+    const exists = PARTNERS.some((p) => p.slug === partnerSlug)
+    if (exists) {
+      return {
+        page: 'catalog',
+        activePartner: partnerSlug,
+        activeSize: params.get('size'),
+        activeCollection: params.get('collection'),
+      }
+    }
+  }
+  if (segments[0] === 'products') {
+    return { page: 'products', activePartner: null, activeSize: null, activeCollection: null }
+  }
+  return { page: 'home', activePartner: null, activeSize: null, activeCollection: null }
+}
+
+function buildUrl({ page, activePartner, activeSize, activeCollection }) {
+  if (page === 'products') return '/products'
+  if (page === 'catalog' && activePartner) {
+    const base = `/products/${activePartner}`
+    if (activePartner === 'seron') {
+      // SeronCatalogueBrowser owns any deeper drill-down path beyond this
+      // prefix — preserve it instead of collapsing back to the root.
+      const current = window.location.pathname
+      return current === base || current.startsWith(`${base}/`) ? current : base
+    }
+    const params = new URLSearchParams()
+    if (activeSize) params.set('size', activeSize)
+    if (activeCollection) params.set('collection', activeCollection)
+    const qs = params.toString()
+    return `${base}${qs ? `?${qs}` : ''}`
+  }
+  return '/'
+}
+
 export default function App() {
-  const [page, setPage] = useState('home')
-  const [activePartner, setActivePartner] = useState(null)
-  const [activeSize, setActiveSize] = useState(null)
-  const [activeCollection, setActiveCollection] = useState(null)
+  const initial = parseLocation()
+  const [page, setPage] = useState(initial.page)
+  const [activePartner, setActivePartner] = useState(initial.activePartner)
+  const [activeSize, setActiveSize] = useState(initial.activeSize)
+  const [activeCollection, setActiveCollection] = useState(initial.activeCollection)
   const [scrollTarget, setScrollTarget] = useState(null)
+  const skipNextPush = useRef(true)
 
   useScrollReveal([page, activePartner, activeSize, activeCollection])
   useTilt([page, activePartner, activeSize, activeCollection])
@@ -29,6 +73,31 @@ export default function App() {
     el?.scrollIntoView({ behavior: 'smooth' })
     setScrollTarget(null)
   }, [page, scrollTarget])
+
+  useEffect(() => {
+    function handlePopState() {
+      skipNextPush.current = true
+      const parsed = parseLocation()
+      setPage(parsed.page)
+      setActivePartner(parsed.activePartner)
+      setActiveSize(parsed.activeSize)
+      setActiveCollection(parsed.activeCollection)
+    }
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
+  useEffect(() => {
+    if (skipNextPush.current) {
+      skipNextPush.current = false
+      return
+    }
+    const target = buildUrl({ page, activePartner, activeSize, activeCollection })
+    const current = window.location.pathname + window.location.search
+    if (target !== current) {
+      window.history.pushState(null, '', target)
+    }
+  }, [page, activePartner, activeSize, activeCollection])
 
   function handleNavigate(targetPage) {
     setPage(targetPage)

@@ -1,7 +1,9 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import products from '../data/products.json'
 import { SERON_CATALOGUE } from '../data/seronCatalogue.js'
 import ProductDetail from './ProductDetail.jsx'
+
+const URL_PREFIX = '/products/seron'
 
 function findNode(path) {
   let nodes = SERON_CATALOGUE
@@ -19,8 +21,45 @@ function countLeafProducts(node) {
   return (node.children || []).reduce((sum, child) => sum + countLeafProducts(child), 0)
 }
 
+function parsePathFromUrl() {
+  const pathname = window.location.pathname.replace(/\/+$/, '')
+  if (!pathname.startsWith(URL_PREFIX)) return []
+  const rest = pathname.slice(URL_PREFIX.length).split('/').filter(Boolean)
+
+  const valid = []
+  let nodes = SERON_CATALOGUE
+  for (const slug of rest) {
+    const node = nodes.find((n) => n.slug === slug)
+    if (!node) break
+    valid.push(slug)
+    nodes = node.children || []
+  }
+  return valid
+}
+
 export default function SeronCatalogueBrowser() {
-  const [path, setPath] = useState([])
+  const [path, setPath] = useState(parsePathFromUrl)
+  const skipNextPush = useRef(true)
+
+  useEffect(() => {
+    function handlePopState() {
+      skipNextPush.current = true
+      setPath(parsePathFromUrl())
+    }
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
+  useEffect(() => {
+    if (skipNextPush.current) {
+      skipNextPush.current = false
+      return
+    }
+    const target = path.length === 0 ? URL_PREFIX : `${URL_PREFIX}/${path.join('/')}`
+    if (target !== window.location.pathname) {
+      window.history.pushState(null, '', target)
+    }
+  }, [path])
 
   const currentNode = path.length === 0 ? null : findNode(path)
   const currentNodes = path.length === 0 ? SERON_CATALOGUE : currentNode?.children || []
