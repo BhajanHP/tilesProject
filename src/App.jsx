@@ -5,6 +5,7 @@ import FloatingContact from './components/FloatingContact.jsx'
 import Home from './components/home/Home.jsx'
 import PartnerGrid from './components/PartnerGrid.jsx'
 import PartnerComingSoon from './components/PartnerComingSoon.jsx'
+import PartnerCatalogue from './components/PartnerCatalogue.jsx'
 import ProductPage from './components/ProductPage.jsx'
 import { PARTNERS } from './data/partners.js'
 import useScrollReveal from './hooks/useScrollReveal.js'
@@ -145,7 +146,7 @@ export default function App() {
 
       {page === 'products' && <PartnerGrid onSelectPartner={handleSelectPartner} />}
 
-      {page === 'catalog' && partner && partner.hasCatalog && (
+      {page === 'catalog' && partner && partner.hasCatalog && !partner.catalogueUrl && (
         <ProductPage
           partnerSlug={partner.slug}
           activeSize={activeSize}
@@ -154,6 +155,17 @@ export default function App() {
           onCollection={setActiveCollection}
           onBack={handleBackToPartners}
         />
+      )}
+
+      {page === 'catalog' && partner && partner.catalogueUrl && (
+        <>
+          <div className="page-header">
+            <button type="button" className="page-header__back" onClick={handleBackToPartners}>
+              <span aria-hidden="true">&larr;</span> All Partners
+            </button>
+          </div>
+          <PartnerCatalogue partner={partner} />
+        </>
       )}
 
       {page === 'catalog' && partner && !partner.hasCatalog && (
