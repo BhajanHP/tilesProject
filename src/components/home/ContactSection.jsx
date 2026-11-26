@@ -1,8 +1,8 @@
 import WipeHeading from './WipeHeading.jsx'
 
 const ADDRESS = 'Aanjaya Tiles, PID 61835, Ring Rd, Jayanagar West, Tumakur, Karnataka - 572102'
-const PHONE_DISPLAY = '+91 98765 43210'
-const PHONE_TEL = '+919876543210'
+const PHONE_DISPLAY = '+91 99720 75255'
+const PHONE_TEL = '+919972075255'
 const EMAIL = 'aanjayatiles@gmail.com'
 
 const MAP_QUERY = '13.3126098,77.1189335'
